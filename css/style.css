@@ -5,13 +5,13 @@
 }
 
 body {
-	font-family: 'courier new', courier, sans-serif;
+	font-family: Geneva, Tahoma, Verdana, sans-serif;
 	font-weight: 500;
 	color: #555;
 }
 
 h1, h2, h3 {
-	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-family: Geneva, Tahoma, Verdana, sans-serif;
 }
 
 h1 {
@@ -25,12 +25,12 @@ h2 {
 p {
 	font-size: 16px;
 	line-height: 20px;
-	margin-bottom: 20px;
+	margin-bottom: 18px;;
 }
 
 a {
   text-decoration: none;
-  color: #2ec371;
+  color: #696969;
 }
 
 blockquote {
@@ -49,39 +49,67 @@ section {
 	padding-bottom: 30px;
 }
 
+/* Navbar */
+#header-title {
+	float: left;
+	padding-top: 15px;
+	margin-bottom: 0px;
+}
+
+#header-nav {
+	float: right;
+	color: ;
+}
+
+#header-nav li {
+	display: inline-block;
+	vertical-align: top;
+}
+
+#header-nav li a {
+	display: block;
+	padding: 15px;
+}
+
+#header-nav li a:hover {
+	background-color: #AFEEEE;
+}
+
 /* Top Section Styling */
 
 #top {
   text-align: center;
-  background-color: #cbd0d2;
   padding-top: 100px;
   padding-bottom: 100px;
-  background: url('../images/hero-bg-dark.jpg') no-repeat center center;
+  background: url('../images/o-BOOK-COFFEE.jpg')no-repeat center center;
   background-size: cover;
 }
 
 #top h1 {
-	color: #2ec371;
+	color: 696969;
 	font-weight: 800;
 }
 
 #top h2 {
-	color: #cecece;
+	color: 696969;
 	font-weight: 200;
 }
 
 /* Middle Section */
 
-#ryan-image{
+#jena-image{
   float: left;
-  margin-right: 30px;
-  margin-bottom: 20px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border-radius: 75px;
+  width: 200px;
+  height: auto;
 }
 
 /* Bottom Section */
 
 #bottom {
-	background-color: #ccc;
+	background-color: #f9f9f9;
 	text-align: center;
 }
 
@@ -99,16 +127,18 @@ section {
 
 #bottom img {
   max-height: 150px;
-  border-radius: 10px;
+  border-radius: 10px;;
 }
 
 .one-half {
   background-color: #fefefe;
-  /* border: 1px solid #ccc; */
+  border: 1px solid #ececec;
   width: 48%;
-  float: left;
+  /*float: left;*/
+  display: inline-block;
   padding: 30px 20px;
   margin: 1%;
+  vertical-align: top;
 }
 
 /* Universal */
@@ -123,15 +153,27 @@ section {
 	color: #fefefe;
 }
 
+.btn {
+  background-color: #696969;
+  border: 1px solid #696969;
+  color: #fefefe;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.btn:hover {
+	background-color: #AFEEEE;;
+}
+
 /* clearfix */
 .row:before,
-.row:after {
+.row:after, .clearfix:before, .clearfix:after {
     content: "";
     display: table;
 } 
-.row:after {
+.row:after, .clearfix:after {
     clear: both;
 }
-.row {
+.row, .clearfix {
     zoom: 1; /* For IE 6/7 (trigger hasLayout) */
 }
