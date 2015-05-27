@@ -101,7 +101,7 @@ section {
   float: left;
   margin-right: 10px;
   margin-bottom: 10px;
-  border-radius: 75px;
+  border-radius: 25px;
   width: 200px;
   height: auto;
 }
@@ -126,8 +126,8 @@ section {
 }
 
 #bottom img {
-  max-height: 150px;
-  border-radius: 10px;;
+  max-height: 199px;
+  border-radius: 30px;;
 }
 
 .one-half {
@@ -136,7 +136,7 @@ section {
   width: 48%;
   /*float: left;*/
   display: inline-block;
-  padding: 50px 110px;
+  padding: 40px 120px;
   margin: 1%;
   vertical-align: top;
 }
