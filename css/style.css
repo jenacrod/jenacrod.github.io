@@ -136,7 +136,7 @@ section {
   width: 48%;
   /*float: left;*/
   display: inline-block;
-  padding: 30px 20px;
+  padding: 50px 110px;
   margin: 1%;
   vertical-align: top;
 }
@@ -157,7 +157,7 @@ section {
   background-color: #696969;
   border: 1px solid #696969;
   color: #fefefe;
-  padding: 5px 10px;
+  padding: 5px;
   border-radius: 5px;
 }
 
@@ -168,12 +168,70 @@ section {
 /* clearfix */
 .row:before,
 .row:after, .clearfix:before, .clearfix:after {
-    content: "";
-    display: table;
+  content: "";
+  display: table;
+  
 } 
 .row:after, .clearfix:after {
     clear: both;
 }
 .row, .clearfix {
     zoom: 1; /* For IE 6/7 (trigger hasLayout) */
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .container {
+    width: 740px;
+  }
+
+  header {
+    font-size: 14px;
+  }
+
+  #header-nav li a {
+    padding: 18px 15px;
+  }
+}
+
+@media (max-width: 767px) {
+  h1 {
+    font-size: 28px;
+  }
+
+  h2 {
+    font-size: 15px;
+  }
+
+  header {
+    height: 70px;
+  }
+
+  #top fieldset {
+    width: 95%;
+  }
+
+  #header-title {
+    float: none;
+    text-align: center;
+  }
+
+  .container {
+    width: 100%;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  #header-nav {
+    float: none;
+    clear: left;
+    font-size: 12px;
+
+  }
+
+  #header-nav li a {
+    padding: 12px;
+  }
+
+  .one-half {
+    width: 98%;
+  }
 }
