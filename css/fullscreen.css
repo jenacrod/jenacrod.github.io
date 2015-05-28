@@ -2,7 +2,7 @@
 	box-sizing: border-box;
 }
 body {
-	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-family: 'Poiret One', cursive;
 	font-weight: 500;
 	color: #555;
   margin-top: 50px;
@@ -64,4 +64,5 @@ aside {
 
 article {
 	margin-left: 436px;
+	margin-top: 80px;
 }
