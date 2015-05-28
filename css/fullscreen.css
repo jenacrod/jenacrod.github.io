@@ -10,8 +10,8 @@ body {
 
 a{
 	text-decoration: none;
-
 }
+
 
 
 header{
@@ -28,6 +28,8 @@ header{
 	display: flex;
 	height: 50px;
 	align-items: center;
+	list-style: none;
+	padding: 0;
 }
 
 
@@ -39,13 +41,27 @@ header{
 	justify-content: center;
 	align-items: center;
 	color: #444;
-	list-style: none;
 }
 
-
+#example {
+	flex: 0 1 426px;
+}
 
 .header-flex a:hover {
 	 background-color: #2ec371;
 	 color: #FFF;
 }
 
+aside {
+  position: fixed;
+  width: 424px;
+  border: 1px solid black;
+  bottom: 0;
+  top: 65px;
+  left: 2px;
+  overflow: scroll;
+}
+
+article {
+	margin-left: 436px;
+}
