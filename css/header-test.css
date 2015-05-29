@@ -1,0 +1,43 @@
+* {
+	box-sizing: border-box;
+	font-family: 'Poiret One', cursive;
+	font-weight: 500;
+}
+body, main, figure, li, h1 {
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #000;	
+}
+.container {
+	max-width: 1020px;
+	margin; 0 auto;
+}
+nav {
+	float: right;
+}
+ul {
+	list-style: none; 
+	padding: 0;
+}
+li, h1 {
+	display: inline-block;
+}
+h1 {
+	padding: 24px 0 24px 80px;
+	font-size: 24px;
+	font-weight: 600;
+}
+li {
+	padding: 0 20px;
+	padding-top: 15px
+}
+ul li: last-child a, h1 {
+	color: #5fcf80;
+}
+header {
+	padding-left: 9%;
+	overflow: auto;
+}
